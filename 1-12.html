@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-12</title>
+</head>
+<body>
+ <script>
+let name = "Карамзин Виктор Геннадьевич";
+let jobTitle = "Должность: Преподаватель специальных дисциплин";
+let educationLevel = "Уровень образования: Высшее";
+let category = "Категория: Первая";
+let educationInstitution = "Образование: Московский государственный институт электронной техники (технический университет)";
+let discipline = "Дисциплина: Информатика";
+let teacher = {
+  name: name,
+  jobTitle: jobTitle,
+  educationLevel: educationLevel,
+  category: category,
+  educationInstitution: educationInstitution,
+  discipline: discipline
+};
+
+// Вывод данных объекта в браузер
+document.write("<h2>Данные педагога:</h2>");
+for (let key in teacher) {
+  document.write(teacher[key] + "<br>");
+}
+ </script>
+</body>
+</html>

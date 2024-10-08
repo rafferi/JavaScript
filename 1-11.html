@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-11</title>
+</head>
+<body>
+    <script>
+
+  const person = {
+        surname: "Зубенко",
+        name: "Михаил",
+        patronymic: "Петрович",
+        ocupation: "Мафиозник",
+        experience: 52,
+        email: "mafioznik@sytylaia.ru",
+        phone: "8-800-535-35-35",
+      };
+      
+   let line = `
+        <h2>${person.surname} ${person.name} ${person.patronymic}</h2>
+       <p><i>Должность:</i> ${person.ocupation}</p>
+       <p><i>Стаж работы:</i> ${person.experience} года</p>
+       <p><i>Телефон:</i> ${person.phone}</p>
+     `;
+     document.write(line);
+        </script>
+</body>
+</html>
